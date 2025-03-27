@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ubb.scs.socialnetworkgui.controller.LoginController">
+    <children>
+        <GridPane layoutX="72.0" layoutY="216.0" prefHeight="94.0" prefWidth="323.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="142.1272735595703" minWidth="10.0" prefWidth="62.92625427246094" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="181.07374572753906" minWidth="10.0" prefWidth="181.07374572753906" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="60.084869384765625" minHeight="10.0" prefHeight="34.340423583984375" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="60.084869384765625" minHeight="10.0" prefHeight="34.340423583984375" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="173.0" text="Password" GridPane.rowIndex="2" xmlns:fx="http://javafx.com/javafx/23.0.1">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" prefHeight="56.0" prefWidth="143.0" text="Username" xmlns:fx="http://javafx.com/javafx/23.0.1">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="usernameField" prefHeight="26.0" prefWidth="134.0" GridPane.columnIndex="1" />
+                <PasswordField fx:id="passwordField" prefHeight="26.0" prefWidth="134.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            </children>
+        </GridPane>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="166.0" layoutY="64.0" prefHeight="74.0" prefWidth="141.0" text="Login">
+            <font>
+                <Font name="System Bold" size="38.0" />
+            </font>
+        </Label>
+        <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="145" layoutY="300" text="Username or password is incorrect!" textFill="red" visible="false"/>
+        <VBox layoutX="188.0" layoutY="364.0" prefHeight="74.0" prefWidth="103.0" spacing="5">
+            <children>
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="120.0" text="Login" xmlns:fx="http://javafx.com/javafx/23.0.1" onAction="#handleLoginButton"/>
+                <Button mnemonicParsing="false" onAction="#handleCreateAccountButton" prefHeight="26.0" prefWidth="110.0" text="Create account" xmlns:fx="http://javafx.com/javafx/23.0.1"/>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
