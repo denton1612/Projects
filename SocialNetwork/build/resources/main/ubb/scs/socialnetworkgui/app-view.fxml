@@ -72,7 +72,7 @@
                           </columns>
                         </TableView>
                   <Button layoutX="380.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleDeleteFriend" text="Delete friend" />
-                  <Button layoutX="374.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleSendMessage" text="Send message" />
+                  <Button layoutX="378.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleSendMessage" text="Conversation" />
                </children></AnchorPane>
       </content>
     </Tab>
