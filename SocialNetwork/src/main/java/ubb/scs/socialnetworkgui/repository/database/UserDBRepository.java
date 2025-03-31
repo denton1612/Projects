@@ -28,7 +28,7 @@ public class UserDBRepository implements Repository<Long, User> {
     public Optional<User> find(Long aLong) {
         User user = null;
         try (Connection connection = DriverManager.getConnection(url, username, password);
-             PreparedStatement preparedStatement = connection.prepareStatement("select * from users where id = ?")) {
+             PreparedStatement preparedStatement = connection.prepareStatement("select * from public.users where id = ?")) {
             preparedStatement.setLong(1, aLong);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -46,7 +46,7 @@ public class UserDBRepository implements Repository<Long, User> {
         int result = -1;
         validator.validate(entity);
         try (Connection connection = DriverManager.getConnection(url, username, password);
-             PreparedStatement preparedStatement = connection.prepareStatement("insert into users values (?, ?, ?)")) {
+             PreparedStatement preparedStatement = connection.prepareStatement("insert into public.users values (?, ?, ?)")) {
             preparedStatement.setString(1, entity.getUsername());
             preparedStatement.setString(2, entity.getEmail());
             preparedStatement.setString(3, entity.getPassword());
@@ -65,7 +65,7 @@ public class UserDBRepository implements Repository<Long, User> {
         int result = -1;
         validator.validate(entity);
         try (Connection connection = DriverManager.getConnection(url, username, password);
-            PreparedStatement preparedStatement = connection.prepareStatement("update users set username = ?, email = ?, password = ? where id = ?")) {
+            PreparedStatement preparedStatement = connection.prepareStatement("update public.users set username = ?, email = ?, password = ? where id = ?")) {
             preparedStatement.setString(1, entity.getUsername());
             preparedStatement.setString(2, entity.getEmail());
             preparedStatement.setString(3, entity.getPassword());
@@ -85,7 +85,7 @@ public class UserDBRepository implements Repository<Long, User> {
     public Optional<User> delete(Long aLong) {
         Optional<User> entity = find(aLong);
         try (Connection connection = DriverManager.getConnection(url, username, password);
-            PreparedStatement preparedStatement = connection.prepareStatement("delete from users where id = ?")) {
+            PreparedStatement preparedStatement = connection.prepareStatement("delete from public.users where id = ?")) {
             preparedStatement.setLong(1, aLong);
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
@@ -98,7 +98,7 @@ public class UserDBRepository implements Repository<Long, User> {
     public Set<User> findAll() {
         Set<User> users = new HashSet<>();
         try (Connection connection = DriverManager.getConnection(url, username, password);
-            PreparedStatement preparedStatement = connection.prepareStatement("select * from users");
+            PreparedStatement preparedStatement = connection.prepareStatement("select * from public.users");
             ResultSet resultSet = preparedStatement.executeQuery()) {
             while (resultSet.next()) {
                 users.add(new User(resultSet.getLong("id"), resultSet.getString("username"), resultSet.getString("email"), resultSet.getString("password")));
@@ -112,7 +112,7 @@ public class UserDBRepository implements Repository<Long, User> {
     public Optional<User> findByUsername(String username) {
         User user = null;
         try (Connection connection = DriverManager.getConnection(url, this.username, password);
-            PreparedStatement preparedStatement = connection.prepareStatement("select * from users where username = ?")) {
+            PreparedStatement preparedStatement = connection.prepareStatement("select * from public.users where username = ?")) {
             preparedStatement.setString(1, username);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -127,7 +127,7 @@ public class UserDBRepository implements Repository<Long, User> {
     public Optional<User> findByEmail(String email) {
         User user = null;
         try (Connection connection = DriverManager.getConnection(url, username, password);
-             PreparedStatement preparedStatement = connection.prepareStatement("select * from users where email = ?")) {
+             PreparedStatement preparedStatement = connection.prepareStatement("select * from public.users where email = ?")) {
             preparedStatement.setString(1, email);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
@@ -142,7 +142,7 @@ public class UserDBRepository implements Repository<Long, User> {
     public Optional<User> findByUserAndPassword(String username, String password) {
         User user = null;
         try (Connection connection = DriverManager.getConnection(url, this.username, this.password);
-             PreparedStatement preparedStatement = connection.prepareStatement("select * from users where username = ? and password = ?")) {
+             PreparedStatement preparedStatement = connection.prepareStatement("select * from public.users where username = ? and password = ?")) {
             preparedStatement.setString(1, username);
             preparedStatement.setString(2, password);
             ResultSet resultSet = preparedStatement.executeQuery();

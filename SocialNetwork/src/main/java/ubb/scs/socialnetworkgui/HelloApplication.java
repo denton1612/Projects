@@ -19,9 +19,12 @@ public class HelloApplication extends Application {
     private MessageService messageService;
 
     private void construct() {
-        UserDBRepository userDBRepository = new UserDBRepository("jdbc:postgresql://localhost:5432/SocialNetwork", "postgres", "200416");
-        FriendshipDBRepository friendshipDBRepository = new FriendshipDBRepository("jdbc:postgresql://localhost:5432/SocialNetwork", "postgres", "200416");
-        MessageDBRepository messageDBRepository = new MessageDBRepository("jdbc:postgresql://localhost:5432/SocialNetwork", "postgres", "200416");
+        String url = "jdbc:postgresql://db.dhzlpuetccocgxncnplp.supabase.co:5432/postgres";
+        String username = "postgres";
+        String password = "Zxcvb1212.,";
+        UserDBRepository userDBRepository = new UserDBRepository(url, username, password);
+        FriendshipDBRepository friendshipDBRepository = new FriendshipDBRepository(url, username, password);
+        MessageDBRepository messageDBRepository = new MessageDBRepository(url, username, password);
         userFriendshipService = new UserFriendshipService(userDBRepository, friendshipDBRepository);
         messageService = new MessageService(messageDBRepository);
     }
