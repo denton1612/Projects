@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballClient", "BasketballClient\BasketballClient.csproj", "{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballServer", "BasketballServer\BasketballServer.csproj", "{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballModel", "BasketballModel\BasketballModel.csproj", "{439BE8B1-B062-431B-BBC8-1E262E79A6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballServices", "BasketballServices\BasketballServices.csproj", "{66B67F40-FF78-4FC0-9F63-5D467203D3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballPersistance", "BasketballPersistance\BasketballPersistance.csproj", "{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasketballNetworking", "BasketballNetworking\BasketballNetworking.csproj", "{E8996FE2-F795-4ED2-9E22-37191ECF570D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439BE8B1-B062-431B-BBC8-1E262E79A6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439BE8B1-B062-431B-BBC8-1E262E79A6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439BE8B1-B062-431B-BBC8-1E262E79A6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439BE8B1-B062-431B-BBC8-1E262E79A6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B67F40-FF78-4FC0-9F63-5D467203D3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B67F40-FF78-4FC0-9F63-5D467203D3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B67F40-FF78-4FC0-9F63-5D467203D3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B67F40-FF78-4FC0-9F63-5D467203D3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8996FE2-F795-4ED2-9E22-37191ECF570D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8996FE2-F795-4ED2-9E22-37191ECF570D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8996FE2-F795-4ED2-9E22-37191ECF570D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8996FE2-F795-4ED2-9E22-37191ECF570D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AC3E7DD-D910-4166-A72E-2AEC844DE5C9}
+	EndGlobalSection
+EndGlobal
