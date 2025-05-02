@@ -11,16 +11,24 @@
       "RelativeMoniker": "D:0:0:{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}|BasketballServer\\BasketballServer.csproj|solutionrelative:basketballserver\\startserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballpersistance\\bdrepositorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|solutionrelative:basketballpersistance\\bdrepositorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}|BasketballServer\\BasketballServer.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballserver\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}|BasketballServer\\BasketballServer.csproj|solutionrelative:basketballserver\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}|BasketballClient\\BasketballClient.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballclient\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}|BasketballClient\\BasketballClient.csproj|solutionrelative:basketballclient\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8996FE2-F795-4ED2-9E22-37191ECF570D}|BasketballNetworking\\BasketballNetworking.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballnetworking\\json_protocol\\clientworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8996FE2-F795-4ED2-9E22-37191ECF570D}|BasketballNetworking\\BasketballNetworking.csproj|solutionrelative:basketballnetworking\\json_protocol\\clientworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8996FE2-F795-4ED2-9E22-37191ECF570D}|BasketballNetworking\\BasketballNetworking.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballnetworking\\json_protocol\\serverproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8996FE2-F795-4ED2-9E22-37191ECF570D}|BasketballNetworking\\BasketballNetworking.csproj|solutionrelative:basketballnetworking\\json_protocol\\serverproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballpersistance\\bdrepositorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|solutionrelative:basketballpersistance\\bdrepositorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballpersistance\\bdrepositoryclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -245,14 +253,6 @@
       "RelativeMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|solutionrelative:basketballpersistance\\utils\\dbutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}|BasketballServer\\BasketballServer.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballserver\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E651DAD9-7B8E-4A31-BAC5-2EBC79AFF18B}|BasketballServer\\BasketballServer.csproj|solutionrelative:basketballserver\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}|BasketballClient\\BasketballClient.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballclient\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B52EA6F8-B65D-4AC1-BA67-8D97137A80DC}|BasketballClient\\BasketballClient.csproj|solutionrelative:basketballclient\\log4net.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|c:\\users\\dento\\desktop\\github\\projects\\basketballclientserver\\basketballpersistance\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BC47E05-9BAF-42C8-98F2-AD7F00EB80D5}|BasketballPersistance\\BasketballPersistance.csproj|solutionrelative:basketballpersistance\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -320,37 +320,19 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StartServer.cs",
-              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\StartServer.cs",
-              "RelativeDocumentMoniker": "BasketballServer\\StartServer.cs",
-              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\StartServer.cs",
-              "RelativeToolTip": "BasketballServer\\StartServer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T22:08:42.543Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BDRepositoryClient.cs",
-              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryClient.cs",
-              "RelativeDocumentMoniker": "BasketballPersistance\\BDRepositoryClient.cs",
-              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryClient.cs",
-              "RelativeToolTip": "BasketballPersistance\\BDRepositoryClient.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowBkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:50:01.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BasketballServer.csproj",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\BasketballServer.csproj",
               "RelativeDocumentMoniker": "BasketballServer\\BasketballServer.csproj",
@@ -369,14 +351,14 @@
               "RelativeDocumentMoniker": "BasketballServer\\ServiceImpl.cs",
               "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\ServiceImpl.cs",
               "RelativeToolTip": "BasketballServer\\ServiceImpl.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAuwG8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwG8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T22:09:05.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AppForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\windows\\AppForm.Designer.cs",
               "RelativeDocumentMoniker": "BasketballClient\\windows\\AppForm.Designer.cs",
@@ -384,12 +366,11 @@
               "RelativeToolTip": "BasketballClient\\windows\\AppForm.Designer.cs",
               "ViewState": "AgIAAPQAAAAAAAAAAAAlwAgBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T19:41:28.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T19:41:28.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "StartClient.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\StartClient.cs",
               "RelativeDocumentMoniker": "BasketballClient\\StartClient.cs",
@@ -397,25 +378,24 @@
               "RelativeToolTip": "BasketballClient\\StartClient.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIAwwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T22:52:25.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T22:52:25.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BDRepositoryGame.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryGame.cs",
               "RelativeDocumentMoniker": "BasketballPersistance\\BDRepositoryGame.cs",
               "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryGame.cs",
               "RelativeToolTip": "BasketballPersistance\\BDRepositoryGame.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwBQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T15:50:48.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ServerProxy.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\json_protocol\\ServerProxy.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\json_protocol\\ServerProxy.cs",
@@ -423,12 +403,11 @@
               "RelativeToolTip": "BasketballNetworking\\json_protocol\\ServerProxy.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAvwJIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T21:33:22.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T21:33:22.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ClientWorker.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\json_protocol\\ClientWorker.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\json_protocol\\ClientWorker.cs",
@@ -436,12 +415,62 @@
               "RelativeToolTip": "BasketballNetworking\\json_protocol\\ClientWorker.cs",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAwKQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T21:45:59.848Z",
+              "WhenOpened": "2025-04-25T21:45:59.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartServer.cs",
+              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\StartServer.cs",
+              "RelativeDocumentMoniker": "BasketballServer\\StartServer.cs",
+              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\StartServer.cs",
+              "RelativeToolTip": "BasketballServer\\StartServer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T22:08:42.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "BDRepositoryClient.cs",
+              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryClient.cs",
+              "RelativeDocumentMoniker": "BasketballPersistance\\BDRepositoryClient.cs",
+              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryClient.cs",
+              "RelativeToolTip": "BasketballPersistance\\BDRepositoryClient.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowBkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:50:01.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "log4net.config",
+              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\log4net.config",
+              "RelativeDocumentMoniker": "BasketballClient\\log4net.config",
+              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\log4net.config",
+              "RelativeToolTip": "BasketballClient\\log4net.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-29T10:04:18.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "log4net.config",
+              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\log4net.config",
+              "RelativeDocumentMoniker": "BasketballServer\\log4net.config",
+              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\log4net.config",
+              "RelativeToolTip": "BasketballServer\\log4net.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-27T19:58:07.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "BDRepositoryPurchase.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryPurchase.cs",
               "RelativeDocumentMoniker": "BasketballPersistance\\BDRepositoryPurchase.cs",
@@ -449,12 +478,11 @@
               "RelativeToolTip": "BasketballPersistance\\BDRepositoryPurchase.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAgwBQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:51:49.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:51:49.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BDRepositoryCashier.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BDRepositoryCashier.cs",
               "RelativeDocumentMoniker": "BasketballPersistance\\BDRepositoryCashier.cs",
@@ -462,12 +490,11 @@
               "RelativeToolTip": "BasketballPersistance\\BDRepositoryCashier.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAA9wCMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:40:31.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:40:31.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\App.config",
               "RelativeDocumentMoniker": "BasketballClient\\App.config",
@@ -475,12 +502,11 @@
               "RelativeToolTip": "BasketballClient\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-01T14:00:57.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:00:57.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\controllers\\Controller.cs",
               "RelativeDocumentMoniker": "BasketballClient\\controllers\\Controller.cs",
@@ -488,24 +514,22 @@
               "RelativeToolTip": "BasketballClient\\controllers\\Controller.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAawEQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T18:14:34.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T18:14:34.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\windows\\LoginForm.cs",
               "RelativeDocumentMoniker": "BasketballClient\\windows\\LoginForm.cs",
               "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\windows\\LoginForm.cs [Design]",
               "RelativeToolTip": "BasketballClient\\windows\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T23:01:57.605Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-25T23:01:57.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\windows\\LoginForm.cs",
               "RelativeDocumentMoniker": "BasketballClient\\windows\\LoginForm.cs",
@@ -513,12 +537,11 @@
               "RelativeToolTip": "BasketballClient\\windows\\LoginForm.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T22:47:41.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T22:47:41.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AppForm.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\windows\\AppForm.cs",
               "RelativeDocumentMoniker": "BasketballClient\\windows\\AppForm.cs",
@@ -526,12 +549,11 @@
               "RelativeToolTip": "BasketballClient\\windows\\AppForm.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAYwA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T19:27:42.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T19:27:42.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\windows\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "BasketballClient\\windows\\LoginForm.Designer.cs",
@@ -539,12 +561,11 @@
               "RelativeToolTip": "BasketballClient\\windows\\LoginForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T22:48:19.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T22:48:19.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\domain\\Game.cs",
               "RelativeDocumentMoniker": "BasketballModel\\domain\\Game.cs",
@@ -552,12 +573,11 @@
               "RelativeToolTip": "BasketballModel\\domain\\Game.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T18:40:38.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T18:40:38.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "PurchaseDTO.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\dtos\\PurchaseDTO.cs",
               "RelativeDocumentMoniker": "BasketballModel\\dtos\\PurchaseDTO.cs",
@@ -565,12 +585,11 @@
               "RelativeToolTip": "BasketballModel\\dtos\\PurchaseDTO.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:33:35.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T10:33:35.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Validator.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\Validator.cs",
               "RelativeDocumentMoniker": "BasketballServices\\Validator.cs",
@@ -578,12 +597,11 @@
               "RelativeToolTip": "BasketballServices\\Validator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:42:33.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T14:42:33.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "BasketballModel.csproj",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj",
               "RelativeDocumentMoniker": "BasketballModel\\BasketballModel.csproj",
@@ -596,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\App.config",
               "RelativeDocumentMoniker": "BasketballServer\\App.config",
@@ -608,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -620,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "PurchaseDTO.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\dtos\\PurchaseDTO.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\dtos\\PurchaseDTO.cs",
@@ -632,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "Purchase.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\domain\\Purchase.cs",
               "RelativeDocumentMoniker": "BasketballModel\\domain\\Purchase.cs",
@@ -644,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\json_protocol\\Response.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\json_protocol\\Response.cs",
@@ -656,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "ResponseType.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\json_protocol\\ResponseType.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\json_protocol\\ResponseType.cs",
@@ -668,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "BasketballServices.csproj",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj",
               "RelativeDocumentMoniker": "BasketballServices\\BasketballServices.csproj",
@@ -681,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "RequestType.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\json_protocol\\RequestType.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\json_protocol\\RequestType.cs",
@@ -693,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "Request.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\json_protocol\\Request.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\json_protocol\\Request.cs",
@@ -705,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "JsonUtils.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\json_protocol\\JsonUtils.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\json_protocol\\JsonUtils.cs",
@@ -717,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "DTOUtils.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\dtos\\DTOUtils.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\dtos\\DTOUtils.cs",
@@ -729,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "CashierDTO.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\dtos\\CashierDTO.cs",
               "RelativeDocumentMoniker": "BasketballNetworking\\dtos\\CashierDTO.cs",
@@ -741,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "BasketballNetworking.csproj",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj",
               "RelativeDocumentMoniker": "BasketballNetworking\\BasketballNetworking.csproj",
@@ -754,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "GameType.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\domain\\GameType.cs",
               "RelativeDocumentMoniker": "BasketballModel\\domain\\GameType.cs",
@@ -766,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\domain\\Entity.cs",
               "RelativeDocumentMoniker": "BasketballModel\\domain\\Entity.cs",
@@ -778,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\domain\\Client.cs",
               "RelativeDocumentMoniker": "BasketballModel\\domain\\Client.cs",
@@ -790,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "Cashier.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\domain\\Cashier.cs",
               "RelativeDocumentMoniker": "BasketballModel\\domain\\Cashier.cs",
@@ -802,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "DbUtils.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\utils\\DbUtils.cs",
               "RelativeDocumentMoniker": "BasketballPersistance\\utils\\DbUtils.cs",
@@ -811,30 +829,6 @@
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAB4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T15:41:12.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "log4net.config",
-              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\log4net.config",
-              "RelativeDocumentMoniker": "BasketballServer\\log4net.config",
-              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\log4net.config",
-              "RelativeToolTip": "BasketballServer\\log4net.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-27T19:58:07.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "log4net.config",
-              "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\log4net.config",
-              "RelativeDocumentMoniker": "BasketballClient\\log4net.config",
-              "ToolTip": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\log4net.config",
-              "RelativeToolTip": "BasketballClient\\log4net.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-29T10:04:18.028Z"
             },
             {
               "$type": "Document",
@@ -996,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServer\\config\\App.config",
               "RelativeDocumentMoniker": "..\\..\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServer\\config\\App.config",
@@ -1008,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "log4net.config",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\config\\log4net.config",
               "RelativeDocumentMoniker": "..\\..\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\config\\log4net.config",
@@ -1020,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "..\\..\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\controllers\\LoginController.cs",
@@ -1032,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Response.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\Response.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\Response.cs",
@@ -1042,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Proxy.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\Proxy.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\Proxy.cs",
@@ -1052,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Request.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\Request.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\Request.cs",
@@ -1062,7 +1056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "RequestType.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\RequestType.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\RequestType.cs",
@@ -1072,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServer\\Program.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServer\\Program.cs",
@@ -1082,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "PurchaseDTO.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\dtos\\PurchaseDTO.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\dtos\\PurchaseDTO.cs",
@@ -1092,7 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Game.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Game.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Game.cs",
@@ -1102,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "ServerConcurrentRpc.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\ServerConcurrentRpc.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\ServerConcurrentRpc.cs",
@@ -1112,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "WindowLogin.cs [Design]",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\WindowLogin.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\WindowLogin.cs [Design]",
@@ -1121,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Porgram.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\Porgram.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\Porgram.cs",
@@ -1131,7 +1125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ServiceImpl.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServer\\ServiceImpl.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServer\\ServiceImpl.cs",
@@ -1141,7 +1135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "WindowApp.cs [Design]",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\WindowApp.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\WindowApp.cs [Design]",
@@ -1150,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "WindowLogin.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\WindowLogin.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\WindowLogin.cs",
@@ -1160,7 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "AbstractServer.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\AbstractServer.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\AbstractServer.cs",
@@ -1170,7 +1164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "GameDTO.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\dtos\\GameDTO.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\dtos\\GameDTO.cs",
@@ -1180,7 +1174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "ServerException.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\ServerException.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\ServerException.cs",
@@ -1190,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "AbstractServerConcurrent.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\AbstractServerConcurrent.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\utils\\AbstractServerConcurrent.cs",
@@ -1200,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "ResponseType.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\ResponseType.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\rpc_protocol\\ResponseType.cs",
@@ -1210,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "ClientDTO.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\dtos\\ClientDTO.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\dtos\\ClientDTO.cs",
@@ -1232,7 +1226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "Cashier.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Cashier.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Cashier.cs",
@@ -1242,7 +1236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "Client.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Client.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Client.cs",
@@ -1252,7 +1246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Entity.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Entity.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Entity.cs",
@@ -1262,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "GameType.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\GameType.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\GameType.cs",
@@ -1272,7 +1266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Purchase.cs",
               "DocumentMoniker": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Purchase.cs",
               "ToolTip": "Z:\\Desktop\\Facultate\\Faculty\\Teme\\An_2\\Sem_2\\mpp\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\Purchase.cs",
@@ -1282,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\Program.cs",
@@ -1294,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\Form1.cs",
               "RelativeDocumentMoniker": "..\\..\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\Form1.cs",
