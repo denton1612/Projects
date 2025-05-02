@@ -46,10 +46,11 @@
             label1 = new Label();
             dataGridViewTickets = new DataGridView();
             buttonLogout = new Button();
-            Name = new DataGridViewTextBoxColumn();
+            ClientName = new DataGridViewTextBoxColumn();
             Address = new DataGridViewTextBoxColumn();
             Game = new DataGridViewTextBoxColumn();
             TicketCounter = new DataGridViewTextBoxColumn();
+            Price = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridViewGames).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewTickets).BeginInit();
             SuspendLayout();
@@ -182,7 +183,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(648, 399);
+            label1.Location = new Point(651, 398);
             label1.Name = "label1";
             label1.Size = new Size(81, 30);
             label1.TabIndex = 10;
@@ -191,10 +192,10 @@
             // dataGridViewTickets
             // 
             dataGridViewTickets.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewTickets.Columns.AddRange(new DataGridViewColumn[] { Name, Address, Game, TicketCounter });
-            dataGridViewTickets.Location = new Point(371, 449);
+            dataGridViewTickets.Columns.AddRange(new DataGridViewColumn[] { ClientName, Address, Game, TicketCounter, Price });
+            dataGridViewTickets.Location = new Point(332, 443);
             dataGridViewTickets.Name = "dataGridViewTickets";
-            dataGridViewTickets.Size = new Size(653, 116);
+            dataGridViewTickets.Size = new Size(713, 116);
             dataGridViewTickets.TabIndex = 11;
             // 
             // buttonLogout
@@ -207,12 +208,12 @@
             buttonLogout.UseVisualStyleBackColor = true;
             buttonLogout.Click += buttonLogout_Click;
             // 
-            // Name
+            // ClientName
             // 
-            Name.DataPropertyName = "Name";
-            Name.HeaderText = "Name";
-            Name.Name = "Name";
-            Name.Width = 150;
+            ClientName.DataPropertyName = "Name";
+            ClientName.HeaderText = "Name";
+            ClientName.Name = "ClientName";
+            ClientName.Width = 150;
             // 
             // Address
             // 
@@ -235,6 +236,13 @@
             TicketCounter.Name = "TicketCounter";
             TicketCounter.Width = 60;
             // 
+            // Price
+            // 
+            Price.DataPropertyName = "Price";
+            Price.HeaderText = "Price";
+            Price.Name = "Price";
+            Price.Width = 60;
+            // 
             // AppForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -253,6 +261,7 @@
             Controls.Add(labelName);
             Controls.Add(dataGridViewGames);
             Controls.Add(gamesLabel);
+            Name = "AppForm";
             Text = "AppForm";
             ((System.ComponentModel.ISupportInitialize)dataGridViewGames).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridViewTickets).EndInit();
@@ -280,9 +289,10 @@
         private DataGridViewTextBoxColumn GameType;
         private DataGridViewTextBoxColumn Seats;
         private DataGridViewTextBoxColumn StartTime;
-        private DataGridViewTextBoxColumn Name;
+        private DataGridViewTextBoxColumn ClientName;
         private DataGridViewTextBoxColumn Address;
         private DataGridViewTextBoxColumn Game;
         private DataGridViewTextBoxColumn TicketCounter;
+        private DataGridViewTextBoxColumn Price;
     }
 }

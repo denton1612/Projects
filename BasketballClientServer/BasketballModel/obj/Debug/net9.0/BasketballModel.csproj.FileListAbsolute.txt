@@ -24,3 +24,16 @@ Z:\Desktop\Facultate\Faculty\Teme\An_2\Sem_2\mpp\mpp-proiect-csharp-denton1612\T
 Z:\Desktop\Facultate\Faculty\Teme\An_2\Sem_2\mpp\mpp-proiect-csharp-denton1612\TemaProiect3\BasketballClientServer\BasketballModel\obj\Debug\net9.0\ref\BasketballModel.dll
 Z:\Desktop\Facultate\Faculty\Teme\An_2\Sem_2\mpp\mpp-proiect-csharp-denton1612\TemaProiect3\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.csproj.AssemblyReference.cache
 C:\Users\dento\Desktop\github\mpp-proiect-csharp-denton1612\TemaProiect3\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.csproj.AssemblyReference.cache
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\bin\Debug\net9.0\BasketballModel.deps.json
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\bin\Debug\net9.0\BasketballModel.dll
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\bin\Debug\net9.0\BasketballModel.pdb
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.csproj.AssemblyReference.cache
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.AssemblyInfoInputs.cache
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.AssemblyInfo.cs
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.csproj.CoreCompileInputs.cache
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.sourcelink.json
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.dll
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\refint\BasketballModel.dll
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.pdb
+C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\ref\BasketballModel.dll

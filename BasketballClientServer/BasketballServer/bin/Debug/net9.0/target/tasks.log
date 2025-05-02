@@ -2038,3 +2038,823 @@
 2025-05-01 17:58:37,817 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
 2025-05-01 17:58:37,817 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
 2025-05-01 17:58:37,818 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:31:13,538 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 16:31:13,556 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 16:31:13,557 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 16:31:13,561 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:31:33,469 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:31:33,511 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:31:33,537 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:31:33,546 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:31:33,696 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:31:34,710 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:31:34,717 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:31:40,085 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 16:31:40,085 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: denis, Address: 
+2025-05-02 16:31:40,086 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-02 16:31:40,087 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:31:40,088 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:31:40,088 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:31:40,089 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 5
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina nr 4
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:31:40,090 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:31:40,091 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:31:40,092 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 16:31:40,092 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 16:38:57,998 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:38:59,013 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:00,020 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:01,032 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:02,038 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:03,053 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:04,058 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:05,060 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:06,067 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:07,069 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:08,082 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:09,084 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:10,089 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:10,717 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:39:10,717 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:39:10,737 [19] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:39:10,737 [19] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:39:10,738 [19] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 16:39:11,098 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:12,103 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:13,111 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:14,122 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:15,131 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:16,141 [9] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:39:20,370 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 16:39:20,380 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 16:39:20,382 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 16:39:20,386 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:39:28,366 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:39:28,367 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:39:28,407 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:39:28,409 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:39:28,433 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:39:29,434 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:39:29,441 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:42:13,971 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 16:42:13,971 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: denis, Address: 
+2025-05-02 16:42:13,974 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-02 16:42:13,975 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:42:13,977 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:42:13,977 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:42:13,978 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:42:13,978 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:42:13,978 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:42:13,978 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 16:42:13,978 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 16:42:13,978 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:42:13,979 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:42:13,979 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:42:13,979 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:42:13,979 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 5
+2025-05-02 16:42:13,980 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina nr 4
+2025-05-02 16:42:13,980 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 16:42:13,980 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 16:42:13,980 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:42:13,981 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:42:13,981 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 16:42:13,981 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 16:42:13,981 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:42:13,981 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:42:13,981 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:42:13,982 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:42:13,982 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 6
+2025-05-02 16:42:13,982 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: str doina
+2025-05-02 16:42:13,982 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-02 16:42:13,982 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-02 16:42:13,982 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 16:42:13,983 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 16:43:24,412 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:43:24,412 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:43:24,413 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:46:20,757 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:46:20,758 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:46:20,778 [17] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:46:20,779 [17] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:46:20,779 [17] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:46:21,783 [17] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:46:21,784 [17] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:46:23,404 [17] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:46:23,404 [17] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:46:23,405 [17] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:46:31,600 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:46:31,600 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:46:31,601 [19] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:46:31,601 [19] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:46:31,601 [19] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:46:32,606 [19] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:46:32,607 [19] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:46:41,286 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:46:41,286 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:46:41,308 [20] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:46:41,308 [20] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:46:41,309 [20] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 16:46:53,400 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:46:53,401 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:46:53,401 [21] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:46:53,401 [21] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:46:53,401 [21] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 16:46:57,177 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:46:57,177 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:46:57,177 [22] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:46:57,177 [22] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:46:57,178 [22] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 16:48:51,449 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:52,465 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:53,478 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:54,489 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:55,501 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:56,512 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:57,523 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:58,526 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:48:59,539 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:00,546 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:01,472 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:49:01,472 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:49:01,496 [27] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:49:01,496 [27] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:49:01,497 [27] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 16:49:01,558 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:02,507 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:49:02,507 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:49:02,507 [28] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:49:02,508 [28] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:49:02,508 [28] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 16:49:02,570 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:03,571 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:04,576 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:05,592 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:06,597 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:07,609 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:08,611 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:09,625 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:10,639 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:11,651 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:12,660 [19] ERROR BasketballNetworking.json_protocol.ClientWorker - System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-02 16:49:20,337 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 16:49:20,347 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 16:49:20,348 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 16:49:20,352 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:49:25,418 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:49:25,419 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:49:25,459 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:49:25,462 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:49:25,490 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:49:26,502 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:49:26,511 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:49:28,546 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:49:28,547 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:49:28,548 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:50:03,843 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:50:03,844 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:50:03,865 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:50:03,865 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:50:03,866 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:50:04,881 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:50:04,881 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:50:05,893 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:50:05,893 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:50:05,894 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:50:15,741 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 16:50:15,751 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 16:50:15,752 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 16:50:15,756 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:50:25,664 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:50:25,665 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:50:25,714 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:50:25,718 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:50:25,742 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:50:26,746 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:50:26,754 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:50:27,759 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:50:27,760 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:50:27,761 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:50:43,495 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 16:50:43,506 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 16:50:43,507 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 16:50:43,511 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:50:51,499 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:50:51,500 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:50:51,551 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:50:51,554 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:50:51,578 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:50:52,582 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:50:52,589 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:50:54,177 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:50:54,177 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:50:54,178 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:52:06,210 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 16:52:06,220 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 16:52:06,222 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 16:52:06,226 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:52:16,359 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:52:16,360 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:52:16,413 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:52:16,416 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:52:16,556 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:52:17,564 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:52:17,571 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:52:18,572 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:52:18,573 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:52:18,574 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:57:22,071 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 16:57:22,082 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 16:57:22,083 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 16:57:22,087 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:57:32,477 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:57:32,478 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:57:32,519 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:57:32,522 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:57:32,548 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:57:33,560 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:57:33,567 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:57:35,153 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:57:35,153 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:57:35,154 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:57:47,400 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 16:57:47,401 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 16:57:47,420 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 16:57:47,420 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:57:47,421 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 16:57:48,426 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 16:57:48,427 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 16:57:49,624 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 16:57:49,624 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 16:57:49,624 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 17:01:48,662 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 17:01:48,662 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 17:01:48,681 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 17:01:48,682 [14] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 17:01:48,682 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 17:01:49,689 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 17:01:49,690 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 17:01:50,949 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 17:01:50,949 [14] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 17:01:50,950 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 17:01:58,351 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 17:01:58,352 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 17:01:58,371 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 17:01:58,371 [15] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 17:01:58,371 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 17:01:59,374 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 17:01:59,375 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 17:02:07,106 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 17:02:07,106 [15] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 17:02:07,107 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 17:03:27,883 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 17:03:27,884 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 17:03:27,903 [18] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 17:03:27,903 [18] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 17:03:27,903 [18] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 17:03:28,912 [18] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 17:03:28,912 [18] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 17:03:29,979 [18] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 17:03:29,979 [18] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 17:03:29,979 [18] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 18:47:28,933 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 18:47:28,943 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 18:47:28,945 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 18:47:28,949 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 18:47:37,903 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 18:47:37,904 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 18:47:37,944 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 18:47:37,947 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 18:47:37,971 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 18:47:38,975 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 18:47:38,982 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 18:47:57,150 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = BUY_TICKET was received
+2025-05-02 18:47:57,152 [9] INFO BasketballPersistance.repository.BDRepositoryClient - Adding client: Name: adi, Address: beius
+2025-05-02 18:47:57,157 [9] INFO BasketballPersistance.repository.BDRepositoryClient - Client Name: adi, Address: beius was added.
+2025-05-02 18:47:57,157 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Adding purchase: BasketballModel.domain.Purchase
+2025-05-02 18:47:57,161 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchase was added.
+2025-05-02 18:47:57,166 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchase was made in ServiceImpl for game = Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 18:47:57,167 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 18:47:57,167 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-02 18:49:59,747 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 18:49:59,747 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: adi, Address: 
+2025-05-02 18:49:59,748 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-02 18:49:59,748 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 8
+2025-05-02 18:49:59,749 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: adi, Address: str doina
+2025-05-02 18:49:59,750 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 18:49:59,750 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 18:49:59,750 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 14
+2025-05-02 18:49:59,750 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: adi, Address: beius
+2025-05-02 18:49:59,750 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 18:49:59,750 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 18:49:59,750 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 18:49:59,751 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 18:50:09,388 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 18:50:09,389 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: adi, Address: beius
+2025-05-02 18:50:09,389 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name and address is starting...
+2025-05-02 18:50:09,389 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 14
+2025-05-02 18:50:09,390 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: adi, Address: beius
+2025-05-02 18:50:09,390 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 18:50:09,390 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 18:50:09,390 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 18:50:09,390 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 18:50:15,349 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 18:50:15,350 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 18:50:15,350 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 18:56:13,963 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 18:56:13,963 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 18:56:13,982 [25] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 18:56:13,982 [25] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 18:56:13,983 [25] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 18:56:14,996 [25] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 18:56:14,997 [25] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 18:56:21,868 [25] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 18:56:21,868 [25] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 18:56:21,869 [25] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:07:09,277 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:07:09,278 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:07:09,297 [47] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:07:09,297 [47] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 19:07:09,298 [47] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:07:10,313 [47] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 19:07:10,314 [47] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 19:07:12,492 [47] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 19:07:12,492 [47] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 19:07:12,493 [47] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:07:39,327 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:07:39,328 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:07:39,328 [49] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:07:39,328 [49] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username =  and password = 
+2025-05-02 19:07:39,328 [49] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:07:44,357 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:07:44,357 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:07:44,357 [50] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:07:44,357 [50] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 19:07:44,358 [50] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:07:45,373 [50] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 19:07:45,373 [50] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 19:07:46,377 [50] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 19:07:46,377 [50] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 19:07:46,377 [50] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:10:23,951 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:10:23,952 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:10:23,972 [55] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:10:23,972 [55] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username =  and password = 
+2025-05-02 19:10:23,973 [55] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:10:28,565 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:10:28,565 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:10:28,565 [57] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:10:28,565 [57] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username =  and password = 
+2025-05-02 19:10:28,566 [57] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:10:32,104 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:10:32,104 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:10:32,104 [58] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:10:32,104 [58] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username =  and password = 
+2025-05-02 19:10:32,105 [58] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:10:34,497 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:10:34,497 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:10:34,497 [59] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:10:34,497 [59] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username =  and password = 
+2025-05-02 19:10:34,498 [59] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:11:17,245 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:11:17,245 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:11:17,265 [56] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:11:17,265 [56] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = dsa and password = fsad
+2025-05-02 19:11:17,265 [56] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:11:19,316 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:11:19,316 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:11:19,316 [62] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:11:19,316 [62] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = dsa and password = fsad
+2025-05-02 19:11:19,316 [62] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:14:02,253 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:14:02,253 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:14:02,273 [67] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:14:02,274 [67] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = asd and password = dfsd
+2025-05-02 19:14:02,274 [67] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:14:08,193 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:14:08,193 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:14:08,193 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:14:08,193 [69] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 19:14:08,193 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:14:09,204 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 19:14:09,205 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 19:14:32,994 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 19:14:32,994 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: , Address: 
+2025-05-02 19:14:32,994 [69] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-02 19:14:32,994 [69] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 19:14:32,995 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 19:14:36,028 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 19:14:36,028 [69] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = marcel and password = marcel1234.
+2025-05-02 19:14:36,028 [69] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:23:29,970 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:23:29,971 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:23:29,990 [71] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:23:29,990 [71] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = das and password = fd
+2025-05-02 19:23:29,991 [71] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:23:36,654 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:23:36,654 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:23:36,654 [70] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:23:36,654 [70] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:23:36,654 [70] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:23:44,900 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 19:23:44,910 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 19:23:44,911 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 19:23:44,915 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:23:56,981 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:23:57,023 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:23:57,046 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:23:57,054 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:23:57,079 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:23:58,092 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 19:23:58,099 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 19:24:12,413 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 19:24:12,414 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: , Address: 
+2025-05-02 19:24:12,414 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-02 19:24:12,415 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 19:24:12,416 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 19:24:15,577 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 19:24:15,577 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:24:15,578 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:24:18,782 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:24:18,782 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:24:18,782 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:24:18,782 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username =  and password = 
+2025-05-02 19:24:18,783 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-02 19:33:55,310 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 19:33:55,327 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 19:33:55,328 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 19:33:55,332 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:34:08,159 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:34:08,160 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:34:08,201 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:34:08,203 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:34:08,228 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:34:09,235 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 19:34:09,242 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 19:34:16,638 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 19:34:16,638 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: , Address: 
+2025-05-02 19:34:16,639 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-02 19:34:16,639 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 19:34:16,640 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 19:34:19,146 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 19:34:19,147 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:34:19,147 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:35:27,645 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:35:27,645 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:35:27,669 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:35:27,669 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:35:27,669 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:35:28,671 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 19:35:28,672 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 19:43:24,591 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-02 19:43:24,608 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-02 19:43:24,610 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-02 19:43:24,614 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:43:37,274 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:43:37,275 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:43:37,321 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:43:37,324 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:43:37,362 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:43:38,377 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-02 19:43:38,384 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-02 19:43:56,052 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = BUY_TICKET was received
+2025-05-02 19:43:56,054 [9] INFO BasketballPersistance.repository.BDRepositoryClient - Adding client: Name: denis, Address: doina
+2025-05-02 19:43:56,058 [9] INFO BasketballPersistance.repository.BDRepositoryClient - Client Name: denis, Address: doina was added.
+2025-05-02 19:43:56,059 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Adding purchase: BasketballModel.domain.Purchase
+2025-05-02 19:43:56,062 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchase was added.
+2025-05-02 19:43:56,068 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchase was made in ServiceImpl for game = Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 19:43:56,068 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:43:56,068 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-02 19:44:04,738 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 19:44:04,739 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: denis, Address: 
+2025-05-02 19:44:04,739 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-02 19:44:04,740 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 14
+2025-05-02 19:44:04,741 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: doina
+2025-05-02 19:44:04,741 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 19:44:04,742 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 19:44:04,742 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 19:44:04,743 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 19:44:10,413 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-02 19:44:10,413 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: denis, Address: doina
+2025-05-02 19:44:10,414 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name and address is starting...
+2025-05-02 19:44:10,414 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 14
+2025-05-02 19:44:10,414 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: denis, Address: doina
+2025-05-02 19:44:10,414 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-02 19:44:10,415 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-02 19:44:10,415 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-02 19:44:10,415 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-02 19:44:15,505 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-02 19:44:15,506 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-02 19:44:15,506 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-02 19:44:19,355 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-02 19:44:19,356 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-02 19:44:19,356 [12] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-02 19:44:19,356 [12] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username =  and password = 
+2025-05-02 19:44:19,357 [12] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent

@@ -24,36 +24,39 @@ namespace BasketballPersistance.repository
         public Client Add(Client entity)
         {
             log.Info("Adding client: " + entity.ToString());
-            using (IDbConnection connection = dbUtils.GetConenction()) { 
-                connection.Open();
-                string sql = "insert into clients (name, address) values (@name, @address)";
+                using (IDbConnection connection = dbUtils.GetConenction())
+                {
+                    connection.Open();
+                    string sql = "insert into clients (name, address) values (@name, @address)";
 
-                int result = -1;
+                    int result = -1;
 
-                using (IDbCommand command = connection.CreateCommand()) { 
-                    command.CommandText = sql;
+                    using (IDbCommand command = connection.CreateCommand())
+                    {
+                        command.CommandText = sql;
 
-                    IDbDataParameter parameterName = command.CreateParameter();
-                    IDbDataParameter parameterAddress = command.CreateParameter();
+                        IDbDataParameter parameterName = command.CreateParameter();
+                        IDbDataParameter parameterAddress = command.CreateParameter();
 
-                    parameterName.ParameterName = "@name";
-                    parameterAddress.ParameterName = "@address";
-                    parameterName.Value = entity.Name;
-                    parameterAddress.Value = entity.Address;
+                        parameterName.ParameterName = "@name";
+                        parameterAddress.ParameterName = "@address";
+                        parameterName.Value = entity.Name;
+                        parameterAddress.Value = entity.Address;
 
-                    command.Parameters.Add(parameterName);
-                    command.Parameters.Add(parameterAddress);      
+                        command.Parameters.Add(parameterName);
+                        command.Parameters.Add(parameterAddress);
 
-                    result = command.ExecuteNonQuery();
+                        result = command.ExecuteNonQuery();
+                    }
+
+                    if (result > 0)
+                    {
+                        log.Info("Client " + entity.ToString() + " was added.");
+                        return entity;
+                    }
+                    log.Error("Adding client impossible.");
+                    return null;
                 }
-
-                if (result > 0) {
-                    log.Info("Client " + entity.ToString() + " was added.");
-                    return entity;
-                }
-                log.Error("Adding client impossible.");
-                return null;
-            }
         }
 
         public Client Delete(Client entity)

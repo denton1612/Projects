@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jo2sJYQttzQ=",
+  "dgSpecHash": "rzX9ysP4Ibk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballClient\\BasketballClient.csproj",
+  "projectFilePath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballClient\\BasketballClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dento\\.nuget\\packages\\log4net\\3.0.4\\log4net.3.0.4.nupkg.sha512",
     "C:\\Users\\dento\\.nuget\\packages\\messagepack\\3.1.3\\messagepack.3.1.3.nupkg.sha512",

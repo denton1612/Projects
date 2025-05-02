@@ -507,11 +507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj",
+      "projectUniqueName": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj",
       "projectName": "BasketballNetworking",
-      "projectPath": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj",
+      "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj",
       "packagesPath": "C:\\Users\\dento\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballNetworking\\obj\\",
+      "outputPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -532,11 +532,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {
-              "projectPath": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj"
+            "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {
+              "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj"
             },
-            "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj": {
-              "projectPath": "C:\\Users\\dento\\Desktop\\github\\mpp-proiect-csharp-denton1612\\TemaProiect3\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj"
+            "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj": {
+              "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj"
             }
           }
         }

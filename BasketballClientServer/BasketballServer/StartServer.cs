@@ -47,6 +47,10 @@ namespace BasketballServer
             {
                 log.Info("Port property not set. Using default value " + default_ip);
             }
+            else
+            {
+                ip = ipS;
+            }
 
             string database = "basketballDB";
             IRepositoryCashier cashierRepository = new BDRepositoryCashier(database);
@@ -55,7 +59,7 @@ namespace BasketballServer
             IRepositoryPurchase purchaseRepository = new BDRepositoryPurchase(database);
 
             IService serviceImpl = new ServiceImpl(cashierRepository, gameRepository, clientRepository, purchaseRepository); 
-            JsonConcurrentServer server = new JsonConcurrentServer(default_ip, default_port, serviceImpl);
+            JsonConcurrentServer server = new JsonConcurrentServer(ip, port, serviceImpl);
 
             server.Start();
         }

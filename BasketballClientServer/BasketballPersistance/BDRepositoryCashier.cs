@@ -34,8 +34,6 @@ namespace BasketballPersistance.repository
         {
             log.DebugFormat("Find cashier in basketball.db by username = {0} and password = {1}", username, password);
             Cashier entity = null;
-            try
-            {
                 using (IDbConnection connection = dbUtils.GetConenction())
                 {
                     connection.Open();
@@ -66,10 +64,6 @@ namespace BasketballPersistance.repository
                         }
                     }
                 }
-            }
-            catch (Exception ex) { 
-                log.Error(ex);
-            }
             return entity;
         }
 

@@ -24,7 +24,7 @@ namespace BasketballModel.domain
         public int Seats { get { return _seats; } set { _seats = value; } }
         public DateTime StartTime { get { return _startTime; } }
 
-        public double GetPrice()
+        public int GetPrice()
         {
             if (_gameType == GameType.GROUP)
                 return 25;

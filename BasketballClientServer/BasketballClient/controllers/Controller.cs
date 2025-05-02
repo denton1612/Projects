@@ -66,16 +66,23 @@ namespace BasketballClient.controllers
             }
             catch (ServiceException e)
             {
-                MessageBox.Show(e.Message);
+                _loginForm.SetUsernameText(""); _loginForm.SetPasswordText("");
+                MessageBox.Show(e.Message, "Login error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         public void Logout()
         {
             log.Debug("Butonul logout a fost apasat");
-            _server.Logout(_cashier, this);
-            _appForm.Close();
-            _loginForm.Show();
+            try
+            {
+                _server.Logout(_cashier, this);
+                _appForm.Close();
+                _loginForm.Show();
+            }
+            catch (ServiceException e) { 
+                MessageBox.Show(e.Message, "Logout error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         public void BuyTicket()
@@ -100,7 +107,7 @@ namespace BasketballClient.controllers
             }
             catch (ServiceException ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message, "Purchase error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -122,7 +129,7 @@ namespace BasketballClient.controllers
             List<BasketballModel.dtos.PurchaseDTO> purchasesDTO = new List<BasketballModel.dtos.PurchaseDTO>();
 
             foreach (Purchase purchase in purchases) {
-                purchasesDTO.Add(new BasketballModel.dtos.PurchaseDTO(purchase.Client.Name, purchase.Client.Address, purchase.Game.ToString(), purchase.TicketCounter));
+                purchasesDTO.Add(new BasketballModel.dtos.PurchaseDTO(purchase.Client.Name, purchase.Client.Address, purchase.Game.ToString(), purchase.TicketCounter, purchase.TicketCounter * purchase.Game.GetPrice()));
             }
 
             return purchasesDTO.ToArray();

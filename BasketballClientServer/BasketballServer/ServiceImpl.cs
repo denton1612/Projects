@@ -31,36 +31,62 @@ namespace BasketballServer
 
         public void Login(Cashier cashier, IObserver observer)
         {
-            Cashier cashierFound = _cashierRepository.findByUsernameAndPassowrd(cashier.Username, cashier.Password);
-            if (cashierFound != null) {
-                if (_loggedCashiers.ContainsKey(cashierFound.Id)) {
-                    throw new ServiceException("Cashier already logged in!");
-                }
-                _loggedCashiers[cashierFound.Id] = observer;
-            }
-            else
+            try
             {
-                throw new ServiceException("Cashier has not an account!");
+                Cashier cashierFound = _cashierRepository.findByUsernameAndPassowrd(cashier.Username, cashier.Password);
+                if (cashierFound != null)
+                {
+                    if (_loggedCashiers.ContainsKey(cashierFound.Id))
+                    {
+                        throw new ServiceException("Cashier already logged in!");
+                    }
+                    _loggedCashiers[cashierFound.Id] = observer;
+                }
+                else
+                {
+                    throw new ServiceException("Cashier has not an account!");
+                }
+            }
+            catch (Exception e) { 
+                throw new ServiceException(e.Message);
             }
         }
 
         public void Logout(Cashier cashier, IObserver observer)
         {
-            Cashier cashierFound = _cashierRepository.findByUsernameAndPassowrd(cashier.Username, cashier.Password);
-            _loggedCashiers?.Remove(cashierFound.Id);
+            try
+            {
+                Cashier cashierFound = _cashierRepository.findByUsernameAndPassowrd(cashier.Username, cashier.Password);
+                _loggedCashiers?.Remove(cashierFound.Id);
+            }
+            catch (Exception e) {
+                throw new ServiceException(e.Message);
+            }
         }
 
         public Game[] GetGames()
         {
-            IEnumerable<Game> games = _gameRepository.GetAll();
-            return games.ToArray();
+            try
+            {
+                IEnumerable<Game> games = _gameRepository.GetAll();
+                return games.ToArray();
+            }
+            catch (Exception e) {
+                throw new ServiceException(e.Message);
+            }
         }
 
         private void updateSeats(Game game, int boughtSeats)
         {
             Game gameUpdated = new Game(game.HomeTeam, game.AwayTeam, game.GameType, game.Seats - boughtSeats, game.StartTime);
             gameUpdated.Id = game.Id;
-            _gameRepository.Update(gameUpdated);
+            try
+            {
+                _gameRepository.Update(gameUpdated);
+            }
+            catch (Exception ex) { 
+                throw new ServiceException(ex.Message);
+            }
         }
 
         private void NotifyBoughtTicket(Game game)
@@ -73,10 +99,17 @@ namespace BasketballServer
 
         public void BuyTicket(Client client, string seats, Game game)
         {
-            Client clientFound = _clientRepository.findByNameAndAddress(client.Name, client.Address);
-            if (clientFound == null)
+            try
             {
-                _clientRepository.Add(client);
+                Client clientFound = _clientRepository.findByNameAndAddress(client.Name, client.Address);
+                if (clientFound == null)
+                {
+                    _clientRepository.Add(client);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new ServiceException(ex.Message);
             }
             client = _clientRepository.findByNameAndAddress(client.Name, client.Address); // astfel putem sa obtinem si id-ul clientului pentru a putea crea purchase-ul
 
