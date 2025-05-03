@@ -24,15 +24,18 @@ namespace BasketballModel.domain
         public int Seats { get { return _seats; } set { _seats = value; } }
         public DateTime StartTime { get { return _startTime; } }
 
-        public int GetPrice()
-        {
-            if (_gameType == GameType.GROUP)
-                return 25;
-            if (_gameType == GameType.QUARTERFINAL)
-                return 40;
-            if (_gameType == GameType.SEMIFINAL)
-                return 75;
-            return 125;
+        public int Price { get 
+            {
+                {
+                    if (_gameType == GameType.GROUP)
+                        return 25;
+                    if (_gameType == GameType.QUARTERFINAL)
+                        return 40;
+                    if (_gameType == GameType.SEMIFINAL)
+                        return 75;
+                    return 125;
+                }
+            } 
         }
 
         public override string ToString()

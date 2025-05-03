@@ -119,7 +119,6 @@ C:\Users\dento\Desktop\github\mpp-proiect-csharp-denton1612\TemaProiect3\Basketb
 C:\Users\dento\Desktop\github\mpp-proiect-csharp-denton1612\TemaProiect3\BasketballClientServer\BasketballServer\bin\Debug\net9.0\data\basketball.db
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballServer\bin\Debug\net9.0\log4net.config
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballServer\bin\Debug\net9.0\BasketballServer.exe
-C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballServer\bin\Debug\net9.0\data\basketball.db
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballServer\bin\Debug\net9.0\BasketballServer.dll.config
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballServer\bin\Debug\net9.0\BasketballServer.deps.json
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballServer\bin\Debug\net9.0\BasketballServer.runtimeconfig.json

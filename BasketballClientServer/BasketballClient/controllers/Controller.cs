@@ -27,8 +27,8 @@ namespace BasketballClient.controllers
 
         private void InitGames()
         {
-            _appForm.GetDataGridViewGames().DataSource = _games;
             _appForm.GetDataGridViewGames().AutoGenerateColumns = false;
+            _appForm.GetDataGridViewGames().DataSource = _games;
             Game[] games = _server.GetGames();
             foreach (Game game in games)
             {
@@ -80,7 +80,8 @@ namespace BasketballClient.controllers
                 _appForm.Close();
                 _loginForm.Show();
             }
-            catch (ServiceException e) { 
+            catch (ServiceException e)
+            {
                 MessageBox.Show(e.Message, "Logout error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -128,8 +129,9 @@ namespace BasketballClient.controllers
         {
             List<BasketballModel.dtos.PurchaseDTO> purchasesDTO = new List<BasketballModel.dtos.PurchaseDTO>();
 
-            foreach (Purchase purchase in purchases) {
-                purchasesDTO.Add(new BasketballModel.dtos.PurchaseDTO(purchase.Client.Name, purchase.Client.Address, purchase.Game.ToString(), purchase.TicketCounter, purchase.TicketCounter * purchase.Game.GetPrice()));
+            foreach (Purchase purchase in purchases)
+            {
+                purchasesDTO.Add(new BasketballModel.dtos.PurchaseDTO(purchase.Client.Name, purchase.Client.Address, purchase.Game.ToString(), purchase.TicketCounter, purchase.TicketCounter * purchase.Game.Price));
             }
 
             return purchasesDTO.ToArray();
@@ -141,10 +143,33 @@ namespace BasketballClient.controllers
             string address = _appForm.GetAddressText();
 
             Purchase[] purchases = _server.GetPurchasesByNameAndAddress(new Client(name, address));
+            if (purchases.Length == 0) {
+                MessageBox.Show("No purchases for this client", "Purchases filter", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
             BasketballModel.dtos.PurchaseDTO[] purchasesDTOModel = GetPurchasesDTO(purchases);
 
             _appForm.GetDataGridViewTickets().DataSource = purchasesDTOModel;
             _appForm.SetNameText(""); _appForm.SetAddressText("");
+        }
+
+        public void GamesSelectionChanged()
+        {
+            if (_appForm.GetDataGridViewGames().CurrentRow != null)
+            {
+                var selectedRow = _appForm.GetDataGridViewGames().CurrentRow;
+                string seats = _appForm.GetSeatsText();
+                if (int.TryParse(seats, out int seatsInt))
+                {
+                    if (seatsInt > 0)
+                    {
+                        string pricePerSeat = selectedRow.Cells["PricePerSeat"].Value.ToString();
+                        int priceInt = int.Parse(pricePerSeat);
+
+                        _appForm.SetTextBoxCurrentPrice((seatsInt * priceInt).ToString());
+                    }
+                }
+            }
         }
     }
 }

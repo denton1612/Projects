@@ -35,6 +35,16 @@ namespace BasketballClient.windows
             return dataGridViewTickets;
         }
 
+        public TextBox GetTextBoxCurrentPrice()
+        {
+            return textBoxCurrentPrice;
+        }
+
+        public void SetTextBoxCurrentPrice(string text)
+        {
+            textBoxCurrentPrice.Text = text;
+        }
+
         public string GetNameText()
         {
             return textBoxName.Text;
@@ -78,6 +88,11 @@ namespace BasketballClient.windows
         private void buttonSearch_Click(object sender, EventArgs e)
         {
             _controller.GetPurchases();
+        }
+
+        private void dataGridViewGames_SelectionChanged(object sender, EventArgs e)
+        {
+            _controller.GamesSelectionChanged();
         }
     }
 }

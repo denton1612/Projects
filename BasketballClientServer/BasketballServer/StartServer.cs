@@ -52,11 +52,11 @@ namespace BasketballServer
                 ip = ipS;
             }
 
-            string database = "basketballDB";
-            IRepositoryCashier cashierRepository = new BDRepositoryCashier(database);
-            IRepositoryGame gameRepository = new BDRepositoryGame(database);
-            IRepositoryClient clientRepository = new BDRepositoryClient(database);
-            IRepositoryPurchase purchaseRepository = new BDRepositoryPurchase(database);
+            string databaseName = "basketballDB";
+            IRepositoryCashier cashierRepository = new BDRepositoryCashier(databaseName);
+            IRepositoryGame gameRepository = new BDRepositoryGame(databaseName);
+            IRepositoryClient clientRepository = new BDRepositoryClient(databaseName);
+            IRepositoryPurchase purchaseRepository = new BDRepositoryPurchase(databaseName);
 
             IService serviceImpl = new ServiceImpl(cashierRepository, gameRepository, clientRepository, purchaseRepository); 
             JsonConcurrentServer server = new JsonConcurrentServer(ip, port, serviceImpl);
