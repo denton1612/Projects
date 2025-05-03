@@ -42,7 +42,7 @@
     </p>
     <img src="../images/BasketballClientServer/loginForm.png" alt="loginForm" width="300">
     <p>
-      If the information entered by the cashier is <b>incorrect</b> (not associated with an existing account), an appropriate error message is displayed and the user is required to return to the previous step.
+      If the information entered by the cashier is <b>incorrect</b> (not associated with an existing account) or someone has already logged in cashier's account, an appropriate error message is displayed and the user is required to return to the previous step.
     </p>
     <img src="../images/BasketballClientServer/loginFormError.png" alt="loginFormError" width="300">
   </li>
@@ -55,14 +55,25 @@
     <ol>
       <li>
         <p>
-          To register a transaction, the cashier inputs the customer's details, specifies the desired number of seats, selects the basketball game from the 'Games' table, and press 'Buy' button.
+          To register a transaction, the cashier inputs the customer's details, specifies the desired number of seats, selects the basketball game from the 'Games' table, and press the 'Buy' button.
           After selecting the desired game, if the entered number of seats is valid, the total ticket cost will be displayed.
         </p>
         <img src="../images/BasketballClientServer/appFormBuyBefore.png" alt="appFormBuyBefore" width="300">
         <img src="../images/BasketballClientServer/appFormBuyAfter.png" alt="appFormBuyAfter" width="300">
       </li>
-
-      
+      <li>
+         <p>
+           To view a customer's transaction history, the cashier enters the customer's details and clicks the 'Search' button.
+           The cashier also has the option to search by customer name only; however, in this case, the transactions of all customers with the entered name will be displayed.
+         </p>
+         <img src="../images/BasketballClientServer/appFormSearchNameAddress.png" alt="appFormSearchNameAddress.png" width="300">
+         <img src="../images/BasketballClientServer/appFormSearchName.png" alt="appFormSearchName.png" width="300">
+      </li>
+      <li>
+        <p>
+          To logout, the cashier has to click the 'Logout' button. He will be redirected to the login page.
+        </p>
+      </li>
     </ol>
   </li>
 </ol>
