@@ -78,7 +78,7 @@
   </li>
 </ol>
 
-<h2>System functionality: </h2>
+<h2>System functionality and application arhitecture: </h2>
 
 
 
