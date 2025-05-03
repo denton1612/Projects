@@ -3423,3 +3423,22 @@
 2025-05-03 17:24:26,922 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
 2025-05-03 17:24:26,923 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
 2025-05-03 17:24:26,923 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-03 18:18:24,425 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-03 18:18:24,436 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-03 18:18:24,438 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-03 18:18:24,442 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-03 18:18:33,453 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-03 18:18:33,454 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-03 18:18:33,494 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-03 18:18:33,496 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-03 18:18:33,624 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-03 18:18:34,625 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-03 18:18:34,631 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-03 18:19:17,812 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-03 18:19:17,813 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-03 18:19:17,813 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-03 18:24:16,139 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-03 18:24:16,140 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-03 18:24:16,140 [16] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-03 18:24:16,140 [16] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = dsa and password = fdsa
+2025-05-03 18:24:16,140 [16] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
