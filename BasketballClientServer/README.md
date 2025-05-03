@@ -52,12 +52,18 @@
       After logging in, the cashier is redirected to the main application window, which provides access to all functionalities available for their role. From this interface, the cashier can perform tasks such as registering transactions, viewing transaction history, and logout from his account.
     </p>
     <img src="../images/BasketballClientServer/appForm.png" alt="appForm" width="300">
-    <p>
-      To register a transaction, the cashier inputs the customer's details, specifies the desired number of seats, selects the basketball game from the 'Games' table, and press 'Buy' button.
-      After selecting the desired game, if the entered number of seats is valid, the total ticket cost will be displayed.
-    </p>
-    <img src="../images/BasketballClientServer/appFormBuyBefore.png" alt="appFormBuyBefore" width="300">
-    <img src="../images/BasketballClientServer/appFormBuyAfter.png" alt="appFormBuyAfter" width="300">
+    <ol>
+      <li>
+        <p>
+          To register a transaction, the cashier inputs the customer's details, specifies the desired number of seats, selects the basketball game from the 'Games' table, and press 'Buy' button.
+          After selecting the desired game, if the entered number of seats is valid, the total ticket cost will be displayed.
+        </p>
+        <img src="../images/BasketballClientServer/appFormBuyBefore.png" alt="appFormBuyBefore" width="300">
+        <img src="../images/BasketballClientServer/appFormBuyAfter.png" alt="appFormBuyAfter" width="300">
+      </li>
+
+      
+    </ol>
   </li>
 </ol>
 
