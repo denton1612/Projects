@@ -1,0 +1,10 @@
+2025-05-03 19:12:53,255 [1] DEBUG BasketballClient.controllers.Controller - Butonul login a fost apasat
+2025-05-03 19:12:53,285 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Request with type = LOGIN was sent successfully
+2025-05-03 19:12:53,339 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Response with type = OK was received
+2025-05-03 19:12:53,348 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Request with type = GET_GAMES was sent successfully
+2025-05-03 19:12:54,353 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Response with type = GET_GAMES was received
+2025-05-03 19:13:05,401 [1] ERROR BasketballNetworking.json_protocol.ServerProxy - 
+2025-05-03 19:13:05,403 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Request with type = BUY_TICKET was sent successfully
+2025-05-03 19:13:05,418 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Response with type = OK was received
+2025-05-03 19:13:09,926 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Request with type = GET_PURCHASES was sent successfully
+2025-05-03 19:13:09,930 [1] DEBUG BasketballNetworking.json_protocol.ServerProxy - Response with type = GET_PURCHASES was received
