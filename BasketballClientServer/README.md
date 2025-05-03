@@ -78,6 +78,7 @@
   </li>
 </ol>
 
+<h2>System functionality: </h2>
 
 
 
