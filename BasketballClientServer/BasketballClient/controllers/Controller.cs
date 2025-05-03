@@ -101,10 +101,11 @@ namespace BasketballClient.controllers
             try
             {
                 _server.BuyTicket(client, seats, game);
-                MessageBox.Show(name + " bought " + seats + " seats at " + game);
+                MessageBox.Show(name + " bought " + seats + " seats at " + game, "Purchase made", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 _appForm.SetNameText("");
                 _appForm.SetAddressText("");
                 _appForm.SetSeatsText("");
+                _appForm.SetCurrentPriceText("");
             }
             catch (ServiceException ex)
             {
@@ -166,7 +167,7 @@ namespace BasketballClient.controllers
                         string pricePerSeat = selectedRow.Cells["PricePerSeat"].Value.ToString();
                         int priceInt = int.Parse(pricePerSeat);
 
-                        _appForm.SetTextBoxCurrentPrice((seatsInt * priceInt).ToString());
+                        _appForm.SetCurrentPriceText((seatsInt * priceInt).ToString());
                     }
                 }
             }

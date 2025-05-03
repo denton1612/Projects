@@ -35,12 +35,12 @@ namespace BasketballClient.windows
             return dataGridViewTickets;
         }
 
-        public TextBox GetTextBoxCurrentPrice()
+        public TextBox GetCurrentPriceText()
         {
             return textBoxCurrentPrice;
         }
 
-        public void SetTextBoxCurrentPrice(string text)
+        public void SetCurrentPriceText(string text)
         {
             textBoxCurrentPrice.Text = text;
         }
