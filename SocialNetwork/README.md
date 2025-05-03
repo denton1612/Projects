@@ -21,7 +21,7 @@
   </li>
 </ul>
 
-<h2>Used technologies: </h2>
+<h2>Technologies used: </h2>
 <ul>
   <li>
     Java
