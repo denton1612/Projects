@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {
+    "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj",
         "projectName": "BasketballModel",
-        "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj",
-        "packagesPath": "C:\\Users\\dento\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\obj\\",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj",
+        "packagesPath": "C:\\Users\\stiubedenis\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\stiubedenis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

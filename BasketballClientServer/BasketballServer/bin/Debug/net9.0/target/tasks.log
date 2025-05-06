@@ -3580,3 +3580,113 @@
    at System.IO.StreamReader.ReadBuffer()
    at System.IO.StreamReader.ReadLine()
    at BasketballNetworking.json_protocol.ClientWorker.Run() in C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballNetworking\json_protocol\ClientWorker.cs:line 47
+2025-05-06 18:16:23,947 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-06 18:16:23,965 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-06 18:16:23,968 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-06 18:16:23,976 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:16:34,711 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-06 18:16:34,729 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:16:34,773 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-06 18:16:34,779 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-06 18:16:34,953 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-06 18:17:12,492 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-06 18:17:12,506 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-06 18:17:12,508 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-06 18:17:12,514 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:17:26,584 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-06 18:17:26,601 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:17:26,647 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-06 18:17:26,653 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-06 18:17:26,841 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:17:27,848 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-06 18:17:27,882 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-06 18:17:43,244 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-06 18:17:43,250 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-06 18:17:43,258 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:20:23,081 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-06 18:20:23,090 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:20:23,117 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-06 18:20:23,118 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-06 18:20:23,122 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:20:24,136 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-06 18:20:24,145 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-06 18:20:31,959 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-06 18:20:31,966 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:20:31,989 [13] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-06 18:20:31,990 [13] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier2 and password = parola
+2025-05-06 18:20:31,992 [13] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = ERROR was sent
+2025-05-06 18:20:43,065 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-06 18:20:43,078 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-06 18:20:43,081 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-06 18:20:43,088 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:20:48,412 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-06 18:20:48,432 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:20:48,473 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-06 18:20:48,479 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier2 and password = parola
+2025-05-06 18:20:48,682 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:20:49,685 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-06 18:20:49,698 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-06 18:20:57,151 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-06 18:20:57,153 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-06 18:20:57,178 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-06 18:20:57,179 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-06 18:20:57,180 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:20:58,189 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-06 18:20:58,195 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-06 18:21:18,295 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = BUY_TICKET was received
+2025-05-06 18:21:18,299 [11] INFO BasketballPersistance.repository.BDRepositoryClient - Adding client: Name: eu, Address: eu
+2025-05-06 18:21:18,306 [11] INFO BasketballPersistance.repository.BDRepositoryClient - Client Name: eu, Address: eu was added.
+2025-05-06 18:21:18,307 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Adding purchase: BasketballModel.domain.Purchase
+2025-05-06 18:21:18,312 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchase was added.
+2025-05-06 18:21:18,321 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchase was made in ServiceImpl for game = Memphis Grizzlies - Oklahoma City Thunder
+2025-05-06 18:21:18,321 [12] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:21:18,321 [13] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:21:18,323 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:21:49,734 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = BUY_TICKET was received
+2025-05-06 18:21:49,739 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Adding purchase: BasketballModel.domain.Purchase
+2025-05-06 18:21:49,747 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchase was added.
+2025-05-06 18:21:49,751 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchase was made in ServiceImpl for game = Memphis Grizzlies - Oklahoma City Thunder
+2025-05-06 18:21:49,753 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:21:49,756 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:21:49,758 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:22:02,906 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = BUY_TICKET was received
+2025-05-06 18:22:02,909 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Adding purchase: BasketballModel.domain.Purchase
+2025-05-06 18:22:02,915 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchase was added.
+2025-05-06 18:22:02,919 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchase was made in ServiceImpl for game = Boston Celtics - Chicago Bulls
+2025-05-06 18:22:02,919 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:22:02,919 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:22:02,920 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:22:13,205 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = BUY_TICKET was received
+2025-05-06 18:22:13,209 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Adding purchase: BasketballModel.domain.Purchase
+2025-05-06 18:22:13,215 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchase was added.
+2025-05-06 18:22:13,219 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchase was made in ServiceImpl for game = Boston Celtics - Chicago Bulls
+2025-05-06 18:22:13,219 [15] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:22:13,219 [14] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = BUY_TICKET was sent
+2025-05-06 18:22:13,220 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:22:20,255 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-06 18:22:20,263 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: eu, Address: 
+2025-05-06 18:22:20,265 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-06 18:22:20,267 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 17
+2025-05-06 18:22:20,268 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: eu, Address: eu
+2025-05-06 18:22:20,268 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-06 18:22:20,269 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-06 18:22:20,269 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 17
+2025-05-06 18:22:20,270 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: eu, Address: eu
+2025-05-06 18:22:20,270 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 4
+2025-05-06 18:22:20,270 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Memphis Grizzlies - Oklahoma City Thunder
+2025-05-06 18:22:20,270 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 17
+2025-05-06 18:22:20,271 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: eu, Address: eu
+2025-05-06 18:22:20,271 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-06 18:22:20,271 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-06 18:22:20,271 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 17
+2025-05-06 18:22:20,272 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: eu, Address: eu
+2025-05-06 18:22:20,272 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-06 18:22:20,272 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-06 18:22:20,273 [9] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-06 18:22:20,275 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-06 18:22:33,147 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-06 18:22:33,150 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier2 and password = parola
+2025-05-06 18:22:33,152 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-06 18:22:37,133 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-06 18:22:37,135 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-06 18:22:37,136 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasketballServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a67e78eb9bd8c04a020a061edba3e885b459cff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6acfd04d6bfc5f2241951b2f08389a20b0fbe36")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasketballServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasketballServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
