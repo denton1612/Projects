@@ -91,9 +91,15 @@
         <li>
           BasketballModel:
           <p>
-            contains all the classes that represent the domain entities of the application.
+            Contains all the classes that represent the domain entities of the application. Additionally, it includes a DTO class to encapsulate only the data required by the client's interface.
           </p>
         </li>
+        <li>
+          BasketballPersistance:
+          <p>
+            
+          </p>
+        </li
       </ul
     </p>
   </li>
