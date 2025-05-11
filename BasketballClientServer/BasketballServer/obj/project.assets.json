@@ -866,23 +866,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dento\\.nuget\\packages\\": {},
+    "C:\\Users\\stiubedenis\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\BasketballServer.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\BasketballServer.csproj",
       "projectName": "BasketballServer",
-      "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\BasketballServer.csproj",
-      "packagesPath": "C:\\Users\\dento\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\obj\\",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\BasketballServer.csproj",
+      "packagesPath": "C:\\Users\\stiubedenis\\.nuget\\packages\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dento\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stiubedenis\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -897,17 +897,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {
-              "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj"
+            "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballModel\\BasketballModel.csproj"
             },
-            "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj": {
-              "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj"
+            "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballNetworking\\BasketballNetworking.csproj"
             },
-            "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BasketballPersistance.csproj": {
-              "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BasketballPersistance.csproj"
+            "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BasketballPersistance.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BasketballPersistance.csproj"
             },
-            "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj": {
-              "projectPath": "C:\\Users\\dento\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj"
+            "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj": {
+              "projectPath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballServices\\BasketballServices.csproj"
             }
           }
         }

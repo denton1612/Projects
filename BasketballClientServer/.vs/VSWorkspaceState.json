@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BasketballClient",
+    "\\BasketballClient\\controllers",
+    "\\BasketballServer"
   ],
-  "SelectedNode": "\\BasketballClientServer.sln",
+  "SelectedNode": "\\BasketballServer\\App.config",
   "PreviewInSolutionExplorer": false
 }

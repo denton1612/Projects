@@ -37,3 +37,16 @@ C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\ob
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\refint\BasketballModel.dll
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.pdb
 C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\ref\BasketballModel.dll
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\bin\Debug\net9.0\BasketballModel.deps.json
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\bin\Debug\net9.0\BasketballModel.dll
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\bin\Debug\net9.0\BasketballModel.pdb
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.AssemblyInfo.cs
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.sourcelink.json
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.dll
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\refint\BasketballModel.dll
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\BasketballModel.pdb
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballModel\obj\Debug\net9.0\ref\BasketballModel.dll
