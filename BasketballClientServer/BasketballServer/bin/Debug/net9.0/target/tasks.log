@@ -3690,3 +3690,52 @@
 2025-05-06 18:22:37,133 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
 2025-05-06 18:22:37,135 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
 2025-05-06 18:22:37,136 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-08 22:51:00,110 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-08 22:51:00,132 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-08 22:51:00,136 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-08 22:51:00,145 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-08 22:51:09,654 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-08 22:51:18,054 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-08 22:51:18,103 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-08 22:51:18,110 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-08 22:51:18,300 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-08 22:51:19,316 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-08 22:51:19,332 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-08 22:51:21,810 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-08 22:51:21,812 [9] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-08 22:51:21,814 [9] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-08 22:51:28,366 [1] DEBUG BasketballServer.utils.AbstractServer - Client connected
+2025-05-08 22:51:28,371 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-08 22:51:28,371 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGIN was received
+2025-05-08 22:51:28,375 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-08 22:51:28,381 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-08 22:51:29,389 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_GAMES was received
+2025-05-08 22:51:29,394 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_GAMES was sent
+2025-05-08 22:51:45,356 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = GET_PURCHASES was received
+2025-05-08 22:51:45,360 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Purchases filtered for client = Name: client1, Address: 
+2025-05-08 22:51:45,366 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Filter by client name is starting...
+2025-05-08 22:51:45,374 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 14
+2025-05-08 22:51:45,376 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: client1, Address: adresa1
+2025-05-08 22:51:45,377 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-08 22:51:45,378 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-08 22:51:45,378 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 16
+2025-05-08 22:51:45,379 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Client found: Name: client1, Address: adresa3
+2025-05-08 22:51:45,379 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Searching for client with id: 3
+2025-05-08 22:51:45,380 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Game found: Boston Celtics - Chicago Bulls
+2025-05-08 22:51:45,380 [11] INFO BasketballPersistance.repository.BDRepositoryPurchase - Purchases were filtered
+2025-05-08 22:51:45,385 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = GET_PURCHASES was sent
+2025-05-08 22:51:54,807 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Request with type = LOGOUT was received
+2025-05-08 22:51:54,810 [11] DEBUG BasketballPersistance.repository.BDRepositoryCashier - Find cashier in basketball.db by username = casier1 and password = parola1234.
+2025-05-08 22:51:54,814 [11] DEBUG BasketballNetworking.json_protocol.ClientWorker - Response with type = OK was sent
+2025-05-08 23:01:18,694 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-08 23:01:18,707 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-08 23:01:18,709 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-08 23:01:18,716 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-08 23:02:22,346 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-08 23:02:22,359 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-08 23:02:22,361 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-08 23:02:22,569 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...
+2025-05-08 23:04:41,130 [1] INFO BasketballServer.StartServer - Starting basketball server
+2025-05-08 23:04:41,143 [1] INFO BasketballServer.StartServer - Reading properties from app.config...
+2025-05-08 23:04:41,146 [1] DEBUG BasketballServer.utils.JsonConcurrentServer - Creating JsonConcurrentServer...
+2025-05-08 23:04:41,382 [1] DEBUG BasketballServer.utils.AbstractServer - Waiting for clients...

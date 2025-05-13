@@ -237,3 +237,4 @@ C:\Users\dento\Desktop\github\Projects\BasketballClientServer\BasketballServer\o
 \\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballServer\obj\Debug\net9.0\BasketballServer.pdb
 \\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballServer\obj\Debug\net9.0\BasketballServer.genruntimeconfig.cache
 \\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballServer\obj\Debug\net9.0\ref\BasketballServer.dll
+\\Mac\Home\Desktop\github\Projects\BasketballClientServer\BasketballServer\bin\Debug\net9.0\BCrypt.Net-Core.dll

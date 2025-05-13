@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+TTPOcKOCJ0=",
+  "dgSpecHash": "OcLDg6xaioI=",
   "success": true,
   "projectFilePath": "\\\\Mac\\Home\\Desktop\\github\\Projects\\BasketballClientServer\\BasketballPersistance\\BasketballPersistance.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\stiubedenis\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\stiubedenis\\.nuget\\packages\\log4net\\3.0.4\\log4net.3.0.4.nupkg.sha512",
     "C:\\Users\\stiubedenis\\.nuget\\packages\\messagepack\\3.1.3\\messagepack.3.1.3.nupkg.sha512",
     "C:\\Users\\stiubedenis\\.nuget\\packages\\messagepack.annotations\\3.1.3\\messagepack.annotations.3.1.3.nupkg.sha512",
