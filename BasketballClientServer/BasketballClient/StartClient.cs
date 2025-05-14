@@ -19,6 +19,7 @@ namespace BasketballClient
     {
         private static int default_port = 55555;
         private static string default_host = "127.0.0.1";
+        private static readonly ILog log = LogManager.GetLogger(typeof(StartClient));
 
         [STAThread]
         public static void Main(string[] args)
@@ -27,16 +28,42 @@ namespace BasketballClient
             {
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
-
+            
                 // configurare jurnalizare folosind log4net
                 var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
                 XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
-
-                IService server = new ServerProxy(default_host, default_port);
+            
+                int port = default_port;
+                string ip = default_ip;
+            
+                string portConfig = ConfigurationManager.AppSettings["port"];
+                if (portConfig == null) { 
+                    log.Debug("Port property not set. Using default value: " +  port);
+                }
+                else
+                {
+                    bool result = Int32.TryParse(portConfig, out port);
+                    if (!result)
+                    {
+                        log.Debug("Port property not a number. Using default value: " + port);
+                        port = default_port;
+                    }
+                }
+            
+                string ipConfig = ConfigurationManager.AppSettings["ip"];
+                if (ipConfig == null) { 
+                    log.Debug("Ip property not set. Using default ip: " + ip);
+                }
+                else
+                {
+                    ip = ipConfig;
+                }
+            
+                IService server = new ServerProxyProtobuf(ip, port);
                 LoginForm loginForm = new LoginForm();
                 Controller loginController = new Controller(loginForm, server);
                 loginForm.SetController(loginController);
-
+            
                 Application.Run(loginForm);
             }
             catch (Exception ex)
