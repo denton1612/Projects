@@ -78,33 +78,6 @@
   </li>
 </ol>
 
-<h2>System functionality and application arhitecture: </h2>
-<p>
-  This project is a <b>client-server</b> desktop application developed in C#. The server handles <b>business logic</b> and <b>data persistence</b> using SQLite, while the client features a <b>graphical user interface</b> built with Windows Forms. 
-</p>
-<ol>
-  <li>
-    Project structure:
-    <p>
-      The application is structured into six separate C# projects to ensure efficient code separation, following a layered architecture model as a priority:
-      <ul>
-        <li>
-          BasketballModel:
-          <p>
-            Contains all the classes that represent the domain entities of the application. Additionally, it includes a DTO class to encapsulate only the data required by the client's interface.
-          </p>
-        </li>
-        <li>
-          BasketballPersistance:
-          <p>
-            
-          </p>
-        </li
-      </ul
-    </p>
-  </li>
-</ol>
-
 
 
 
