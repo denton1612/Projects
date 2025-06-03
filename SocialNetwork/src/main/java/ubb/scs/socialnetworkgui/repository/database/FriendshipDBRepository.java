@@ -1,7 +1,6 @@
 package ubb.scs.socialnetworkgui.repository.database;
 
-import com.almasb.fxgl.scene3d.Cone;
-import kotlin.Pair;
+import javafx.util.Pair;
 import ubb.scs.socialnetworkgui.domain.Friendship;
 import ubb.scs.socialnetworkgui.domain.Status;
 import ubb.scs.socialnetworkgui.domain.Tuple;
@@ -167,13 +166,13 @@ public class FriendshipDBRepository implements FriendshipsPagingRepository {
     private int count(FriendshipDTOFilter filter) {
         String sql = "select count(*) as count from friendships";
         Pair<String, List<Object>> sqlFilter = getSql(filter);
-        if (!sqlFilter.getFirst().isEmpty()) {
-            sql += " where " + sqlFilter.getFirst();
+        if (!sqlFilter.getKey().isEmpty()) {
+            sql += " where " + sqlFilter.getKey();
         }
         try (Connection connection = DriverManager.getConnection(url, username, password);
             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             int parameterIndex = 1;
-            for (Object param : sqlFilter.getSecond()) {
+            for (Object param : sqlFilter.getValue()) {
                 if (param instanceof Status) {
                     preparedStatement.setObject(parameterIndex++, param.toString(), Types.VARCHAR);
                 }
@@ -192,15 +191,15 @@ public class FriendshipDBRepository implements FriendshipsPagingRepository {
     public Page<Friendship> findAllOnPage(Pageable pageable, FriendshipDTOFilter filter) {
         String sql = "select * from friendships";
         Pair<String, List<Object>> sqlFilter = getSql(filter);
-        if (!sqlFilter.getFirst().isEmpty()) {
-            sql += " where " + sqlFilter.getFirst();
+        if (!sqlFilter.getKey().isEmpty()) {
+            sql += " where " + sqlFilter.getKey();
         }
         sql += " limit ? offset ?";
         try (Connection connection = DriverManager.getConnection(url, username, password);
             PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             Set<Friendship> friendships = new HashSet<>();
             int parameterIndex = 1;
-            for (Object param : sqlFilter.getSecond()) {
+            for (Object param : sqlFilter.getValue()) {
                 if (param instanceof Status) {
                     preparedStatement.setObject(parameterIndex++, param.toString(), Types.VARCHAR);
                 }

@@ -4,7 +4,6 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import ubb.scs.socialnetworkgui.controller.AppController;
 import ubb.scs.socialnetworkgui.controller.Controller;
 import ubb.scs.socialnetworkgui.repository.database.FriendshipDBRepository;
 import ubb.scs.socialnetworkgui.repository.database.MessageDBRepository;
@@ -19,9 +18,9 @@ public class HelloApplication extends Application {
     private MessageService messageService;
 
     private void construct() {
-        String url = "jdbc:postgresql://db.dhzlpuetccocgxncnplp.supabase.co:5432/postgres";
+        String url = "jdbc:postgresql://localhost:5432/SocialNetwork";
         String username = "postgres";
-        String password = "Zxcvb1212.,";
+        String password = "200416";
         UserDBRepository userDBRepository = new UserDBRepository(url, username, password);
         FriendshipDBRepository friendshipDBRepository = new FriendshipDBRepository(url, username, password);
         MessageDBRepository messageDBRepository = new MessageDBRepository(url, username, password);

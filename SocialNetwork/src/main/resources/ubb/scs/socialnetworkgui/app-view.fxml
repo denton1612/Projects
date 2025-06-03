@@ -51,7 +51,7 @@
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <GridPane layoutX="300.0" layoutY="111.0">
+                  <GridPane layoutX="368.0" layoutY="113.0">
                     <columnConstraints>
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -64,15 +64,15 @@
                         <TextField fx:id="usernameFieldFriends" GridPane.columnIndex="1" />
                      </children>
                   </GridPane>
-                        <TableView fx:id="tableViewFriends" layoutX="14.0" layoutY="15.0" prefHeight="335.0" prefWidth="221.0">
+                        <TableView fx:id="tableViewFriends" layoutX="14.0" layoutY="15.0" prefHeight="335.0" prefWidth="304.0">
                           <columns>
                             <TableColumn fx:id="tableColumnUsernameFriends" prefWidth="101.0" text="Username" />
                             <TableColumn fx:id="tableColumnEmailFriends" prefWidth="101.0" text="Email" />
                               <TableColumn fx:id="tableColumnDateFriends" prefWidth="101" text="Since" />
                           </columns>
                         </TableView>
-                  <Button layoutX="380.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleDeleteFriend" text="Delete friend" />
-                  <Button layoutX="378.0" layoutY="157.0" mnemonicParsing="false" onAction="#handleSendMessage" text="Conversation" />
+                  <Button layoutX="425.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleDeleteFriend" text="Delete friend" />
+                  <Button layoutX="423.0" layoutY="170.0" mnemonicParsing="false" onAction="#handleSendMessage" text="Conversation" />
                </children></AnchorPane>
       </content>
     </Tab>
@@ -80,32 +80,33 @@
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                        <TableView fx:id="tableViewRequests" layoutX="14.0" layoutY="15.0" prefHeight="299.0" prefWidth="221.0">
+                        <TableView fx:id="tableViewRequests" layoutX="14.0" layoutY="15.0" prefHeight="299.0" prefWidth="304.0">
                            <columns>
                               <TableColumn fx:id="tableColumnUsernameRequests" prefWidth="101.0" text="Username" />
                               <TableColumn fx:id="tableColumnEmailRequests" prefWidth="101.0" text="Email" />
                                <TableColumn fx:id="tableColumnDateRequests" prefWidth="101.0" text="Since" />
                            </columns>
                         </TableView>
-                  <GridPane layoutX="300.0" layoutY="109.0">
+                  <GridPane layoutX="361.0" layoutY="136.0">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                         <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                      </columnConstraints>
                      <rowConstraints>
+                        <RowConstraints />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <Label alignment="CENTER" prefHeight="24.0" prefWidth="100.0" text="Username:" />
-                        <TextField fx:id="usernameFieldRequests" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" prefHeight="24.0" prefWidth="100.0" text="Username:" GridPane.rowIndex="1" />
+                        <TextField fx:id="usernameFieldRequests" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>
-                  <Button layoutX="344.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleAcceptRequest" text="Accept" />
-                  <Button layoutX="409.0" layoutY="164.0" mnemonicParsing="false" onAction="#handleDeclineRequest" text="Decline" />
+                  <Button layoutX="405.0" layoutY="184.0" mnemonicParsing="false" onAction="#handleAcceptRequest" text="Accept" />
+                  <Button layoutX="470.0" layoutY="184.0" mnemonicParsing="false" onAction="#handleDeclineRequest" text="Decline" />
                   <HBox prefHeight="100.0" prefWidth="200.0" />
                   <Button fx:id="prevButtonRequests" layoutX="14.0" layoutY="323.0" mnemonicParsing="false" onAction="#handlePrevButtonRequests" text="Prev" />
-                  <Button fx:id="nextButtonRequests" layoutX="192.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleNextButtonRequests" text="Next" />
-                  <Label fx:id="pageLabelRequests" alignment="CENTER" layoutX="70.0" layoutY="328.0" prefHeight="17.0" prefWidth="109.0" text="Label" />
+                  <Button fx:id="nextButtonRequests" layoutX="275.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleNextButtonRequests" text="Next" />
+                  <Label fx:id="pageLabelRequests" alignment="CENTER" layoutX="112.0" layoutY="328.0" prefHeight="17.0" prefWidth="109.0" text="Label" />
                </children></AnchorPane>
       </content>
     </Tab>
@@ -113,10 +114,10 @@
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                        <TableView fx:id="tableViewOthers" layoutX="14.0" layoutY="15.0" prefHeight="335.0" prefWidth="221.0">
+                        <TableView fx:id="tableViewOthers" layoutX="14.0" layoutY="15.0" prefHeight="335.0" prefWidth="218.0">
                            <columns>
                               <TableColumn fx:id="tableColumnUsernameOthers" prefWidth="101.0" text="Username" />
-                              <TableColumn fx:id="tableColumnEmailOthers" prefWidth="103.0" text="Email" />
+                              <TableColumn fx:id="tableColumnEmailOthers" prefWidth="116.0" text="Email" />
                            </columns>
                         </TableView>
                   <GridPane layoutX="300.0" layoutY="117.0">
@@ -132,7 +133,7 @@
                         <TextField fx:id="usernameFieldOthers" GridPane.columnIndex="1" />
                      </children>
                   </GridPane>
-                  <Button layoutX="355.0" layoutY="158.0" mnemonicParsing="false" onAction="#handleSendRequest" text="Send request" />
+                  <Button layoutX="364.0" layoutY="170.0" mnemonicParsing="false" onAction="#handleSendRequest" text="Send request" />
                </children>
             </AnchorPane>
         </content>
