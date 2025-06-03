@@ -1,5 +1,0 @@
-/Users/stiubedenis/Desktop/github/PersonalProjects/Pharmacy/cmake-build-debug/CMakeFiles/lab13_14.dir
-/Users/stiubedenis/Desktop/github/PersonalProjects/Pharmacy/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/stiubedenis/Desktop/github/PersonalProjects/Pharmacy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/stiubedenis/Desktop/github/PersonalProjects/Pharmacy/cmake-build-debug/CMakeFiles/lab13_14_autogen_timestamp_deps.dir
-/Users/stiubedenis/Desktop/github/PersonalProjects/Pharmacy/cmake-build-debug/CMakeFiles/lab13_14_autogen.dir
