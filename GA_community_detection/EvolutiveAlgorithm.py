@@ -1,7 +1,6 @@
 import math
 import random
 
-
 class Chromosome:
     def __init__(self, genes = None):
         self.genes = genes
@@ -12,15 +11,16 @@ class Chromosome:
         current_comms = set(new_genes)
         max_comm = max(current_comms)
         n = len(new_genes)
+        new_comm_rate = 0.3 # probability if mutation happens to create a new community
 
         for i in range(n):
             if random.random() < mutation_rate:
-                if random.random() < 0.3:
-                    # Creează o comunitate nouă
+                if random.random() < new_comm_rate:
+                    # create a new community (with a probability equals to mutation_rate * new_comm_rate)
                     max_comm += 1
                     new_genes[i] = max_comm
                 else:
-                    # Mută într-o comunitate existentă (alta decât cea curentă)
+                    # move the current node (gene) in another community (if exists)
                     possible = list(current_comms - {new_genes[i]})
                     if possible:
                         new_genes[i] = random.choice(possible)
@@ -33,10 +33,12 @@ class Chromosome:
         n = len(parent1.genes)
         child_genes = []
 
+        # the child has equal chances to inherit every gene from the parents
         for i in range(n):
             chosen = parent1.genes[i] if random.random() < 0.5 else parent2.genes[i]
             child_genes.append(chosen)
 
+        # remapping of communities to 1..num_communities
         mapping = {}
         new_val = 1
         for i in range(n):
@@ -64,7 +66,7 @@ class GA:
 
     def initialization(self):
         for _ in range(self.param['popSize']):
-            k_max = max(2, int(math.sqrt(self.problem_param['size'])))  # sau chiar n // 2
+            k_max = max(2, int(math.sqrt(self.problem_param['size'])))  # for the number of communities I can use popSize // 2 too
             genes = [random.randint(1, k_max) for _ in range(self.problem_param['size'])]
             self.population.append(Chromosome(genes))
 
@@ -82,6 +84,7 @@ class GA:
             return min(population)
         return max(population)
 
+    # it chooses the best chromosome from a sample of size k
     def selection_tournament(self, k = 3):
         tournament = random.sample(self.population, k)
         return self.best_chromosome(tournament)
@@ -97,6 +100,8 @@ class GA:
         self.population = new_pop
         self.evaluation()
 
+    # similar approach to selection_tournament, but this ensures that the best chromosome will survive in next generation
+    # it tries to use the exploitation more
     def next_generation_elitism(self):
         new_pop = [self.best_chromosome(self.population)]
         for _ in range(self.param['popSize'] - 1):
